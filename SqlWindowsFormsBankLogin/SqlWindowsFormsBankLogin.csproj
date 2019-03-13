@@ -54,6 +54,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BankAcountPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankAcountPage.Designer.cs">
+      <DependentUpon>BankAcountPage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BankAcountPage.resx">
+      <DependentUpon>BankAcountPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +88,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginTemp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginTemp1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pnge.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cua.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gvect.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
