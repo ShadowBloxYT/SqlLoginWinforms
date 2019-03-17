@@ -28,68 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.passwordInput = new System.Windows.Forms.TextBox();
+            this.usernameInput = new System.Windows.Forms.TextBox();
+            this.loginButton = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.loginButton)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox2
+            // passwordInput
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Leelawadee UI", 26.75F);
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(148, 286);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(325, 48);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "   Password";
+            this.passwordInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(6)))), ((int)(((byte)(11)))));
+            this.passwordInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.passwordInput.Font = new System.Drawing.Font("Leelawadee UI", 26.75F);
+            this.passwordInput.ForeColor = System.Drawing.Color.Cyan;
+            this.passwordInput.Location = new System.Drawing.Point(148, 286);
+            this.passwordInput.Name = "passwordInput";
+            this.passwordInput.Size = new System.Drawing.Size(325, 48);
+            this.passwordInput.TabIndex = 2;
+            this.passwordInput.Text = "   Password";
+            this.passwordInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             // 
-            // textBox1
+            // usernameInput
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Leelawadee UI", 26.75F);
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(148, 214);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(325, 48);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "   Username";
+            this.usernameInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(6)))), ((int)(((byte)(11)))));
+            this.usernameInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.usernameInput.Font = new System.Drawing.Font("Leelawadee UI", 26.75F);
+            this.usernameInput.ForeColor = System.Drawing.Color.Cyan;
+            this.usernameInput.Location = new System.Drawing.Point(148, 214);
+            this.usernameInput.Name = "usernameInput";
+            this.usernameInput.Size = new System.Drawing.Size(325, 48);
+            this.usernameInput.TabIndex = 1;
+            this.usernameInput.Text = "   Username";
+            this.usernameInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             // 
-            // pictureBox1
+            // loginButton
             // 
-            this.pictureBox1.Image = global::SqlWindowsFormsBankLogin.Properties.Resources.cua;
-            this.pictureBox1.Location = new System.Drawing.Point(135, 370);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(348, 62);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.loginButton.BackColor = System.Drawing.Color.Transparent;
+            this.loginButton.Location = new System.Drawing.Point(136, 363);
+            this.loginButton.Name = "loginButton";
+            this.loginButton.Size = new System.Drawing.Size(348, 69);
+            this.loginButton.TabIndex = 5;
+            this.loginButton.TabStop = false;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BackgroundImage = global::SqlWindowsFormsBankLogin.Properties.Resources.loginTemp1;
+            this.BackColor = System.Drawing.Color.YellowGreen;
+            this.BackgroundImage = global::SqlWindowsFormsBankLogin.Properties.Resources.loginTemp234;
             this.ClientSize = new System.Drawing.Size(582, 530);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.loginButton);
+            this.Controls.Add(this.usernameInput);
+            this.Controls.Add(this.passwordInput);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Form1";
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.Color.Black;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.loginButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox passwordInput;
+        private System.Windows.Forms.TextBox usernameInput;
+        private System.Windows.Forms.PictureBox loginButton;
     }
 }
 

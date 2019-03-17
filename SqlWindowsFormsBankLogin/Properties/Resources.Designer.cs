@@ -83,6 +83,26 @@ namespace SqlWindowsFormsBankLogin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap loading1 {
+            get {
+                object obj = ResourceManager.GetObject("loading1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loading2 {
+            get {
+                object obj = ResourceManager.GetObject("loading2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LogIn {
             get {
                 object obj = ResourceManager.GetObject("LogIn", resourceCulture);
@@ -106,6 +126,46 @@ namespace SqlWindowsFormsBankLogin.Properties {
         internal static System.Drawing.Bitmap loginTemp1 {
             get {
                 object obj = ResourceManager.GetObject("loginTemp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loginTemp11 {
+            get {
+                object obj = ResourceManager.GetObject("loginTemp11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loginTemp12 {
+            get {
+                object obj = ResourceManager.GetObject("loginTemp12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loginTemp234 {
+            get {
+                object obj = ResourceManager.GetObject("loginTemp234", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap neon {
+            get {
+                object obj = ResourceManager.GetObject("neon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
