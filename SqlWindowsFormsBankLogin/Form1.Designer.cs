@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.passwordInput = new System.Windows.Forms.TextBox();
             this.usernameInput = new System.Windows.Forms.TextBox();
             this.loginButton = new System.Windows.Forms.PictureBox();
@@ -74,16 +75,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.YellowGreen;
-            this.BackgroundImage = global::SqlWindowsFormsBankLogin.Properties.Resources.loginTemp234;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::SqlWindowsFormsBankLogin.Properties.Resources.loginTemp2341;
             this.ClientSize = new System.Drawing.Size(582, 530);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.usernameInput);
             this.Controls.Add(this.passwordInput);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
-            this.TransparencyKey = System.Drawing.Color.Black;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.isTHATclosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.loginButton)).EndInit();
             this.ResumeLayout(false);

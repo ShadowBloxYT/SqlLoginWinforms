@@ -34,7 +34,7 @@ namespace SqlWindowsFormsBankLogin
         {
             command.Connection = connection;
             command.CommandType = CommandType.Text;
-            command.CommandText = $"SELECT * FROM Users WHERE Username = '{usernameInput.Text}' AND Passsword = '{passwordInput.Text}'";
+            command.CommandText = $"SELECT * FROM Users WHERE Username = '{usernameInput.Text}' AND Passsword = '{passwordInput.Text}' COLLATE SQL_Latin1_General_CP1_CS_AS";
 
             adapter = new SqlDataAdapter(command);
             DataTable table = new DataTable();
@@ -44,9 +44,16 @@ namespace SqlWindowsFormsBankLogin
 
             if (table.Rows.Count >= 1)
             {
-                Loading loading = new Loading();
+                float money = float.Parse(table.Rows[0]["Money"].ToString());
+
+                Loading loading = new Loading(usernameInput.Text, passwordInput.Text, money);
                 loading.Show();
                 this.Hide();
+            }
+
+            else if (table.Rows.Count == 0)
+            {
+                MessageBox.Show("SCAMMER!!!! + TRY HARD BOOIIIIIII >:| & >:(");
             }
         }
 
@@ -62,6 +69,10 @@ namespace SqlWindowsFormsBankLogin
                 loginCheck();
             }
         }
-        
+
+        private void isTHATclosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

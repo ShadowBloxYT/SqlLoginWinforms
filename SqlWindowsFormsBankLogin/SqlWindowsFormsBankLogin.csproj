@@ -66,6 +66,12 @@
     <Compile Include="BankAcountPage.Designer.cs">
       <DependentUpon>BankAcountPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Withdraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Withdraw.Designer.cs">
+      <DependentUpon>Withdraw.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BankAcountPage.resx">
       <DependentUpon>BankAcountPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +91,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Withdraw.resx">
+      <DependentUpon>Withdraw.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -133,6 +142,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\loginTemp234.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginTemp2341.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lamborghini-huracan-raining-reflection-cgi-supercars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOOOOOOOOOlbutton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\withdraw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deposic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logede.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,16 @@ namespace SqlWindowsFormsBankLogin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap COOOOOOOOOOlbutton {
+            get {
+                object obj = ResourceManager.GetObject("COOOOOOOOOOlbutton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cua {
             get {
                 object obj = ResourceManager.GetObject("cua", resourceCulture);
@@ -73,9 +83,29 @@ namespace SqlWindowsFormsBankLogin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap deposic {
+            get {
+                object obj = ResourceManager.GetObject("deposic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gvect {
             get {
                 object obj = ResourceManager.GetObject("gvect", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lamborghini_huracan_raining_reflection_cgi_supercars {
+            get {
+                object obj = ResourceManager.GetObject("lamborghini-huracan-raining-reflection-cgi-supercars", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +126,16 @@ namespace SqlWindowsFormsBankLogin.Properties {
         internal static System.Drawing.Bitmap loading2 {
             get {
                 object obj = ResourceManager.GetObject("loading2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logede {
+            get {
+                object obj = ResourceManager.GetObject("logede", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +203,16 @@ namespace SqlWindowsFormsBankLogin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap loginTemp2341 {
+            get {
+                object obj = ResourceManager.GetObject("loginTemp2341", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap neon {
             get {
                 object obj = ResourceManager.GetObject("neon", resourceCulture);
@@ -176,6 +226,16 @@ namespace SqlWindowsFormsBankLogin.Properties {
         internal static System.Drawing.Bitmap pnge {
             get {
                 object obj = ResourceManager.GetObject("pnge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap withdraw {
+            get {
+                object obj = ResourceManager.GetObject("withdraw", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

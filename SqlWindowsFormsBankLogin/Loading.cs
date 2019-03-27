@@ -12,16 +12,23 @@ namespace SqlWindowsFormsBankLogin
 {
     public partial class Loading : Form
     {
-        public Loading()
+        string U;
+        string P;
+        float M;
+
+        public Loading(string u, string p, float m)
         {
-            InitializeComponent(); 
+            InitializeComponent();
+            U = u;
+            P = p;
+            M = m;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Stop();
             this.Close();
-            BankAcountPage acountPage = new BankAcountPage();
+            BankAcountPage acountPage = new BankAcountPage(U, P, M);
             acountPage.Show();
         }
 
