@@ -74,5 +74,16 @@ namespace SqlWindowsFormsBankLogin
         {
             Application.Exit();
         }
+
+        
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            CreateAccount newAccount = new CreateAccount();
+
+            this.Hide();
+
+            newAccount.Show();
+        }
     }
 }

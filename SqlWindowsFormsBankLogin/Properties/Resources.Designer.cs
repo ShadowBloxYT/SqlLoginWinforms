@@ -73,6 +73,16 @@ namespace SqlWindowsFormsBankLogin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CreateAccount {
+            get {
+                object obj = ResourceManager.GetObject("CreateAccount", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cua {
             get {
                 object obj = ResourceManager.GetObject("cua", resourceCulture);
@@ -216,6 +226,36 @@ namespace SqlWindowsFormsBankLogin.Properties {
         internal static System.Drawing.Bitmap neon {
             get {
                 object obj = ResourceManager.GetObject("neon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NumericUpDownNeonChange {
+            get {
+                object obj = ResourceManager.GetObject("NumericUpDownNeonChange", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NumericUpDownNeonChange2 {
+            get {
+                object obj = ResourceManager.GetObject("NumericUpDownNeonChange2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap passWo {
+            get {
+                object obj = ResourceManager.GetObject("passWo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

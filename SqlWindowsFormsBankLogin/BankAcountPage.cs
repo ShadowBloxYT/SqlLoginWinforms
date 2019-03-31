@@ -52,7 +52,7 @@ namespace SqlWindowsFormsBankLogin
         private void depositButton_Click(object sender, EventArgs e)
         {
             connection.Open();
-            float moneyToDeposit = int.Parse(depositAmount.Text);
+            float moneyToDeposit = float.Parse(depositAmount.Text);
             float moneyUpdated = Money += moneyToDeposit;
             command.CommandText = $"UPDATE Users SET Money = {moneyUpdated} WHERE Username = '{Username}'";
             command.Connection = connection;
